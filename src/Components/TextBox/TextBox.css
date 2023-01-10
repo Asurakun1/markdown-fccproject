@@ -1,0 +1,23 @@
+.text-box{
+    border: 1px solid black;
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+    background-color: gray;
+}
+
+.text-box, .text-box-inner{
+    border-radius: 2%;
+}
+
+.text-box .text-box-inner{
+    margin: 1rem auto;
+    min-height: 90%;
+    z-index: 1;
+}
+
+.text-box .text-box-inner textarea{
+    width: 48vw;
+    min-height: 36vh;
+    font-size: 1.2rem;
+}

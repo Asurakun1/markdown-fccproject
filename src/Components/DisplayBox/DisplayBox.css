@@ -1,0 +1,11 @@
+.text-box .text-box-inner section{
+    border: 1px solid white;
+    margin: 1rem auto;
+    background-color: whitesmoke;
+    text-align: left;
+    max-width: 96%;
+    max-height: 36vh;
+    min-height: 36vh;
+    overflow: scroll;
+    font-size: 1.1rem;
+}
